@@ -4,6 +4,11 @@ mp_drawing = mp.solutions.drawing_utils
 mp_drawing_styles = mp.solutions.drawing_styles
 mp_holistic = mp.solutions.holistic
 
+#currently this is the starter code that just overlays landmarks on live inputs
+#next step is to adjust this so it passes the "results" to the coresponding exercise regognition to generate feedback
+
+
+
 cap = cv2.VideoCapture(0)
 
 with mp_holistic.Holistic(
