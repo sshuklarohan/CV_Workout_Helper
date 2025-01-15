@@ -21,6 +21,8 @@ with mp_holistic.Holistic(
             print(f"Landmark {idx}: x={landmark.x}, y={landmark.y}, z={landmark.z}, visibility={landmark.visibility}")
 
     sq = Squat(results.pose_landmarks)
+    sq.get_visible_side()
+    print(sq.check_shoulder_knee_valid() and sq.check_heels_valid() and sq.check_hip_knee_angles_valid())
 
 
 

@@ -6,3 +6,4 @@ and Virtual Reality,
 Seattle, WA, USA, 2020
 
 
+- Finish squat validation functions and test it on video- setup system for returning feedback from exercise class
